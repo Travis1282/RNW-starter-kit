@@ -1,0 +1,38 @@
+{
+  "name": "RNW-starter-kit",
+  "version": "0.1.0",
+  "private": true,
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "dependencies": {
+    "expo": "^25.0.0",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-native": "0.52.0",
+    "react-native-web": "^0.9.0",
+    "react-art": "~16.0.0",
+    "react-scripts": "1.1.5"
+  },
+  "scripts": {      
+    "start-expo": "expo start",
+    "eject-expo": "expo eject",
+    "android-expo": "expo start --android",
+    "ios-expo": "expo start --ios",
+    "test-expo": "jest",
+    "start-web": "react-scripts start",
+    "build-web": "react-scripts build",
+    "test-web": "react-scripts test --env=jsdom",
+    "eject-web": "react-scripts eject"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-react-jsx-source": "^6.22.0",
+    "babel-preset-expo": "^4.0.0",
+    "flow-bin": "^0.81.0",
+    "jest-expo": "^30.0.0",
+    "react-native-scripts": "^2.0.1",
+    "react-test-renderer": "16.2.0"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  }
+}
